@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>登录注册</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/k_login.css">
+</head>
+
+<body>
+    <!-- 登录注册 -->
+    <div id="login">
+        <div class="ov login-main">
+            <div class="login-box">
+                <h2 class="Myorder2">
+                    <a href="javascript:">免费注册</a> 用户登录
+                </h2>
+                <form action="" id="userloginform">
+                    <div class="login-box-inner">
+                        <div class="form-nor">
+                            <ul>
+                                <li>
+                                    <div class="loginMsg" style="color: #FF0000;"></div>
+                                </li>
+                                <li>
+                                    <input name="txtName" id="txtName" class="textbox-username" palceholder="用户名/邮箱" type="text">
+                                    <input type="hidden" name="hdReturnUrl" id="hdReturnUrl" value>
+                                </li>
+                                <li>
+                                    <input type="text" name="pass" id="pass" class="textbox-password">
+                                </li>
+                                <li>
+                                    <a href="javascript:" class="forgetp">忘记密码?</a>
+                                </li>
+                                <li>
+                                    <button class="btn-login" id="userlogin">登录</button>
+                                </li>
+                                <li style="margin-left:10px;">
+                                    其他登录方式：
+                                    <a href="javascript:" class="icon-qq">QQ</a> &nbsp;&nbsp;&nbsp;
+                                    <a href="javascript:" class="icon-sina">新浪微博</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <form action="" id="registerform"></form>
+        </div>
+    </div>
+    <script src="../js/k_login.js"></script>
+</body>
+
+</html>
