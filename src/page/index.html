@@ -1,12 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>特步首页</title>
+    <link rel="stylesheet" href="../css/public_module.css">
+    <link rel="stylesheet" href="../css/index.css">
 </head>
+
 <body>
-    
+    <!-- 引入顶部模块 -->
+    <div class="header"></div>
+    <!-- 主体内容 -->
+    <div class="show">
+        <div class="slideshow">
+            <ul>
+                <li class="active">
+                    <a href="javascript:;">
+                        <img src="../image/L_img (23).jpg" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <img src="../image/L_img (24).jpg" alt="">
+                    </a>
+                </li>
+            </ul>
+            <ol>
+                <li class="nvi">1</li>
+                <li>2</li>
+            </ol>
+        </div>
+    </div>
+    <div class="nav_img">
+        <ul>
+            <li>
+                <p>
+                    <a href="javascript:;">
+                        <img src="../image/L_img (25).jpg" alt="">
+                    </a>
+                </p>
+            </li>
+            <li>
+                <p>
+                    <a href="javascript:;">
+                        <img src="../image/L_img (26).jpg" alt="">
+                    </a>
+                </p>
+            </li>
+            <li>
+                <p>
+                    <a href="javascript:;">
+                        <img src="../image/L_img (27).jpg" alt="">
+                    </a>
+                </p>
+            </li>
+            <li>
+                <p>
+                    <a href="javascript:;">
+                        <img src="../image/L_img (28).jpg" alt="">
+                    </a>
+                </p>
+            </li>
+            <li>
+                <p>
+                    <a href="javascript:;">
+                        <img src="../image/L_img (29).jpg" alt="">
+                    </a>
+                </p>
+            </li>
+            <li>
+                <p>
+                    <a href="javascript:;">
+                        <img src="../image/L_img (25).jpg" alt="">
+                    </a>
+                </p>
+            </li>
+            <li>
+                <p>
+                    <a href="javascript:;">
+                        <img src="../image/L_img (26).jpg" alt="">
+                    </a>
+                </p>
+            </li>
+            <li>
+                <p>
+                    <a href="javascript:;">
+                        <img src="../image/L_img (27).jpg" alt="">
+                    </a>
+                </p>
+            </li>
+            <li>
+                <p>
+                    <a href="javascript:;">
+                        <img src="../image/L_img (28).jpg" alt="">
+                    </a>
+                </p>
+            </li>
+            <li>
+                <p>
+                    <a href="javascript:;">
+                        <img src="../image/L_img (29).jpg" alt="">
+                    </a>
+                </p>
+            </li>
+        </ul>
+    </div>
+    <div class="picture">
+        <div class="picture_top">
+            <img src="../image/L_img (30).jpg" alt="">
+        </div>
+        <div>
+            <div class="picture_left">
+                <div>
+                    <img src="../image/L_img (31).jpg" alt="">
+                </div>
+                <div>
+                    <a href="javascript:;"><img src="../image/L_img (32).jpg" alt=""></a>
+                    <a href="javascript:;"><img src="../image/L_img (33).jpg" alt=""></a>
+                </div>
+                <div>
+                    <a href="javascript:;"><img src="../image/L_img (34).jpg" alt=""></a>
+                    <a href="javascript:;"><img src="../image/L_img (35).jpg" alt=""></a>
+                </div>
+            </div>
+            <div class="picture_right">
+                <div>
+                    <a href="javascript:;"><img src="../image/L_img (36).jpg" alt=""></a>
+                    <a href="javascript:;"><img src="../image/L_img (37).jpg" alt=""></a>
+                </div>
+                <div>
+                    <a href="javascript:;"><img src="../image/L_img (38).jpg" alt=""></a>
+                    <a href="javascript:;"><img src="../image/L_img (39).jpg" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 引入底部模块 -->
+    <div class="bottom"></div>
+    <script src="../js/jquery-1.8.3.js"></script>
+    <script src="../js/index.js"></script>
+    <script>
+        (function () {
+            // 加载顶部模块
+            $('.header').load('../page/public_module_top.html');
+
+            // 加载底部模块
+            $('.bottom').load('../page/public_module_bottom.html');
+        })();
+    </script>
 </body>
+
 </html>
