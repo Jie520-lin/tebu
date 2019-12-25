@@ -1,4 +1,4 @@
-$(function() {
+$(function () {
 
     // 加载数据
     $.ajax({
@@ -6,9 +6,9 @@ $(function() {
         type: 'get',
         dataType: 'json',
         cache: false,
-        success: function(jsonArr) {
+        success: function (jsonArr) {
             var results = '';
-            $.each(jsonArr, function(index, item) {
+            $.each(jsonArr, function (index, item) {
                 results += `<li class="k_item code=${item.code}">
                     <div class="k_hoto">
                         <div class="k_ren">
