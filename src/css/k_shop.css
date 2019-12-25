@@ -199,6 +199,10 @@
         float: left;
     }
     
+    .k_oprat .hos a:hover {
+        color: #e4393c;
+    }
+    
     .k_oprat li a:link,
     .k_oprat li a:visited {
         color: #333;
@@ -258,6 +262,53 @@
     .k_a a:link,
     .k_a a:visited {
         color: #333;
+    }
+    
+    .k_title a:hover {
+        color: #e4393c;
+    }
+    
+    .k_mt10 {
+        background: #fff;
+        border: 1px solid #ddd;
+        padding: 13px 15px;
+        margin-top: 15px;
+        overflow: hidden;
+    }
+    
+    .k_seqAll {
+        float: right;
+    }
+    
+    .k_seqAll strong {
+        margin: 0px 2px;
+        color: #c40000;
+    }
+    
+    .k_seqPai {
+        float: left;
+    }
+    
+    .k_seqPai a {
+        padding: 3px 6px;
+        margin: 0 5px;
+        color: #333333;
+        background: #f2f2f2;
+    }
+    
+    .k_seqPai a:first-child {
+        margin: 0 5px 0 0;
+    }
+    
+    .k_seqPai a:hover {
+        background-color: #c40000;
+        color: #FFF;
+        text-decoration: none;
+    }
+    
+    img {
+        border: 0;
+        vertical-align: middle;
     }
     /* 右边商品列表 */
     

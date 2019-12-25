@@ -8,7 +8,7 @@
     <title>登录注册</title>
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/public_module.css">
-    <link rel="stylesheet" href="../css/k_login.css">
+    <link rel="stylesheet" href="../css/getPass.css">
 </head>
 
 <body>
@@ -457,127 +457,93 @@
     </div>
     <!-- 登录注册 -->
     <div id="login">
-        <div class="ov login-main">
-            <div class="login-box">
-                <h2 class="Myorder2">
-                    <a href="javascript:">免费注册</a> 用户登录
+        <div class="ov login-main" style="background:#fff">
+            <div class="reg-box">
+                <h2 class="Myorder ">
+                    方式一：手机找回密码
                 </h2>
-                <form action="" id="userloginform">
-                    <div class="login-box-inner">
+                <form id="getpass">
+                    <div>
                         <div class="form-nor">
                             <ul>
                                 <li>
-                                    <div class="loginMsg" style="color: #FF0000;"></div>
+                                    <div class="errMsg" style="color: #FF0000;"></div>
+                                </li>
+                                <li class="tips">
+                                    忘记了密码？请输入用户名和注册时填写的手机号码
+                                    <br> 我们会将重设密码邮件发送到您的手机号码！
                                 </li>
                                 <li>
-                                    <input name="txtName" id="txtName" class="textbox-username" palceholder="用户名/邮箱" type="text" required="true" rangelength="6,12">
-                                    <input type="hidden" name="hdReturnUrl" id="hdReturnUrl" value>
+                                    <label class="lb-nor">
+                                        用户名：
+                                    </label>
+                                    <input type="text" class="textbox-r" name="" id="">
+                                    <div class="errMsg"></div>
                                 </li>
                                 <li>
-                                    <input type="text" name="pass" id="pass" class="textbox-password">
+                                    <label class="lb-nor">
+                                        手机号码：
+                                    </label>
+                                    <input type="text" class="textbox-r" name="" id="">
                                 </li>
                                 <li>
-                                    <a href="../page/getPass.html" class="forgetp">忘记密码?</a>
+                                    <label class="lb-nor">
+                                        验证码：
+                                    </label>
+                                    <input type="text" class="textbox-r" name="" id="" style="width: 100px; border-color: rgb(153, 153, 153); background-color: rgb(245, 245, 245);">
+                                    <img src="../image/k_002.jpg" alt="" style="vertical-align: middle; cursor: pointer vam" title="点击刷新">
                                 </li>
-                                <li>
-                                    <button class="btn-login" id="userlogin">登录</button>
-                                </li>
-                                <li style="margin-left:10px;">
-                                    其他登录方式：
-                                    <a href="javascript:" class="icon-qq">QQ</a> &nbsp;&nbsp;&nbsp;
-                                    <a href="javascript:" class="icon-sina">新浪微博</a>
+                                <li class="op-bar">
+                                    <input type="button" name="" id="" class="btn-green" value="提交" style="font-size: 14px; cursor: pointer;"> &nbsp; &nbsp;
                                 </li>
                             </ul>
                         </div>
                     </div>
                 </form>
             </div>
-            <form action="" id="registerform">
-                <div class="reg-box">
-                    <h2 class="Myorder2">快速注册</h2>
-                    <div class="reg-box-inner">
+            <div class="login-box" style="padding:0px">
+                <h2 class="Myorder ">
+                    方式二：邮箱找回密码
+                </h2>
+                <form id="emilform">
+                    <div>
                         <div class="form-nor">
                             <ul>
                                 <li>
-                                    <div class="registMsg" style="color: #FF0000;"></div>
-                                    <input type="hidden" id="hdUserId" name="hdUserId" value="0">
+                                    <div class="errMsg" style="color: #FF0000;"></div>
+                                </li>
+                                <li class="tips">
+                                    忘记了密码？请输入用户名和注册时填写的邮箱
+                                    <br> 我们会将重设密码邮件发送到您的邮箱！
                                 </li>
                                 <li>
                                     <label class="lb-nor">
-                                        <span>*</span>
                                         用户名：
                                     </label>
-                                    <input type="text" name="username" id="username" class="textbox-f" name="username">
-                                    <input type="hidden" id="hdUsername">
+                                    <input type="text" class="textbox-r" name="" id="">
+                                    <div class="errMsg"></div>
                                 </li>
                                 <li>
                                     <label class="lb-nor">
-                                        <span>*</span>
-                                        密码：
+                                        电子邮箱：
                                     </label>
-                                    <input type="password" name="password" id="password" class="textbox-f">
-
+                                    <input type="text" class="textbox-r" name="" id="">
                                 </li>
                                 <li>
                                     <label class="lb-nor">
-                                        <span>*</span>
-                                        确认密码：
-                                    </label>
-                                    <input type="password" name="password2" id="password2" class="textbox-f">
-                                    <input type="hidden" id="hdUsername">
-                                </li>
-                                <li style="display:none;">
-                                    <label class="lb-nor">
-                                        <span>*</span>
-                                        电子邮箱
-                                    </label>
-                                    <input type="text" name="txtemail" id="txtemail" class="textbox-f">
-                                    <input type="hidden" id="hdUsername">
-                                </li>
-                                <li>
-                                    <label class="lb-nor">
-                                        <span>*</span>
-                                        手机号：
-                                    </label>
-                                    <input type="text" name="txtmobile" id="txtmobile" class="textbox-f">
-                                    <input type="hidden" id="hdUsername">
-                                </li>
-                                <li>
-                                    <label class="lb-nor">
-                                        <span>*</span>
                                         验证码：
                                     </label>
-                                    <input style="width: 100px; line-height: 24px; border-radius: 4px; border-color: rgb(153, 153, 153); background-color: rgb(245, 245, 245);" type="text" maxlength="5" name="ValidateCode" id="ValidateCode" class="textbox-f">
-                                    <img src="../image/k_002.jpg" align="absmiddle" id="ValidateCodeImg" style="vertical-align: middle; cursor: pointer" title="刷新" onclick="UpdateValidateCode(); ">
-                                    <input type="hidden" id="hdUsername">
+                                    <input type="text" class="textbox-r" name="" id="" style="width: 100px; border-color: rgb(153, 153, 153); background-color: rgb(245, 245, 245);">
+                                    <img src="../image/k_002.jpg" alt="" style="vertical-align: middle; cursor: pointer vam" title="点击刷新">
                                 </li>
-                                <li>
-                                    <label class="lb-nor">
-
-                                    </label>
-                                    <input type="checkbox" name="" id=""> 我已看过并接受
-                                    <a href="javascript:">《特步用户协议》</a>
-                                </li>
-                                <li>
-                                    <label class="lb-nor">
-
-                                    </label>
-                                    <button class="btn-login">立即注册</button>
+                                <li class="op-bar">
+                                    <input type="button" name="" id="" class="btn-green" value="提交" style="font-size: 14px; cursor: pointer;"> &nbsp; &nbsp;
                                 </li>
                             </ul>
                         </div>
                     </div>
-                </div>
-                <div class="back2login">
-                    已有特步账号?
-                    <br>
-                    <button class="btn-login" onclick="$('#registerform').hide();return false;">立即登录</button>
-                    <br> 其他登录方式：
-                    <a href="javascript:" class="icon-qq">QQ</a> &nbsp;&nbsp;&nbsp;
-                    <a href="javascript:" class="icon-sina">新浪微博</a>
-                </div>
-                <a href="javascript:" class="bigclose" onclick="$('#registerform').hide()">X</a>
-            </form>
+                </form>
+            </div>
         </div>
     </div>
     <div class="module_bottom">
