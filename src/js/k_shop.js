@@ -42,4 +42,17 @@ $(function () {
         }
     });
 
+
+    $('.hos').mouseenter(function () {
+        $('.k_sizeOv').css('display', 'block');
+    })
+    $('.hos').mouseleave(function () {
+        $('.k_sizeOv').css('display', 'none');
+    })
+    $('.k_allTop').mouseenter(function () {
+        $('.k_current').css('left', '0px');
+    })
+    $('.k_allTop').mouseleave(function () {
+        $('.k_current').css('left', '34px');
+    })
 });
