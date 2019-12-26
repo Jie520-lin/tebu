@@ -68,7 +68,7 @@
 
 .btn-green {
     border: 1px solid #ccc;
-    color: #fff!important;
+    color: #fff !important;
     min-width: 80px;
     background: #ce4000;
     vertical-align: middle;
@@ -91,4 +91,12 @@
     height: 300px;
     overflow: hidden;
     color: #9b9b9b;
+}
+
+.space {
+    height: 2px;
+    line-height: 2px;
+    clear: both;
+    display: block;
+    overflow: hidden;
 }
