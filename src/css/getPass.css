@@ -1,0 +1,102 @@
+#login {
+    background: url(../image/k_005.jpg) no-repeat center center;
+    color: #727272;
+}
+
+.login-main {
+    height: 460px;
+    position: relative;
+    width: 950px;
+    margin: 0px auto;
+}
+
+.ov {
+    overflow: hidden;
+}
+
+
+/* 方式一 */
+
+.reg-box {
+    padding: 45px 80px 0px 120px;
+    border-right: 1px solid #dcdcdc;
+    width: 350px;
+    overflow: hidden;
+    height: 400px;
+    float: left;
+}
+
+.Myorder {
+    padding: 15px 0px;
+    font-size: 24px;
+    font-family: "微软雅黑";
+}
+
+.form-nor li {
+    margin-bottom: 10px;
+    color: #9b9b9b;
+}
+
+.tips {
+    padding: 11px 14px;
+    background: #fcffe2;
+    border: #e8dcc6 1px solid;
+    margin: 10px 0px 0px;
+    color: #434343;
+}
+
+.lb-nor {
+    display: inline-block;
+    width: 80px;
+    text-align: right;
+}
+
+.textbox-r {
+    border-radius: 4px;
+    border: #ccc 1px solid;
+    line-height: 24px;
+    width: 200px;
+    background: #fff;
+    text-indent: 12px;
+    font-family: "微软雅黑";
+    color: #333;
+}
+
+.op-bar {
+    margin: 20px 0 0 60px;
+}
+
+.btn-green {
+    border: 1px solid #ccc;
+    color: #fff !important;
+    min-width: 80px;
+    background: #ce4000;
+    vertical-align: middle;
+    display: inline-block;
+    text-align: center;
+    padding: 4px 10px;
+    border-radius: 3px;
+}
+
+
+/* 方式二 */
+
+.login-box {
+    padding: 15px;
+    width: 300px;
+    position: absolute;
+    right: 45px;
+    top: 45px;
+    background: #fff;
+    height: 300px;
+    overflow: hidden;
+    color: #9b9b9b;
+}
+
+.space {
+    height: 2px;
+    line-height: 2px;
+    clear: both;
+    display: block;
+    overflow: hidden;
+}
