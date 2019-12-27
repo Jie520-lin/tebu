@@ -1,0 +1,161 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+i,
+em,
+u {
+    font-style: normal;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+body,
+html {
+    font-size: 12px;
+}
+
+img {
+    vertical-align: top;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.buzhu{
+    background: #fff;
+    text-align: right;
+    width: 100%;
+}
+.buzhu div{
+    margin: 0 auto;
+    padding: 30px 0;
+}
+.buzhu div img{
+    border: 0;
+}
+.L_s_show {
+    background: #fff;
+    margin: 20px auto;
+    width: 1200px;
+}
+.L_s_show .container h2{
+    clear: both;
+    background: #c01a20;
+    /* padding: 15px 45px; */
+    width: 120px;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+    color: #fff;
+    font-family: "微软雅黑";
+    margin-bottom: 10px;
+}
+
+.L_s_show .container div table{
+    width: 100%;
+}
+.L_s_show .container div table thead tr{
+    border: 1px solid #e1e1e1;
+}
+
+.L_s_show .container div table thead tr a{
+    color: #787878;
+}
+
+.L_s_show .container div table thead tr td{
+    color: #444;
+    /* background: url(/util/images/newsite/navbg.jpg) repeat-x; */
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: none;
+    color: #787878;
+    padding: 15px 5px;
+}
+
+.L_s_show .container div table thead tr .maintd{
+    text-align: left;
+    position: relative;
+}
+
+.L_s_show .container div table thead tr .maintd img{
+    width: 74px;
+    height: 74px;
+    border: 1px solid #dcdcdc;
+    margin-right: 10px;
+    float: left;
+}
+.L_s_show .container div table thead tr .mainjiaj a{
+    color: #666;
+    float: left;
+    width: 15px;
+    height: 32px;
+    cursor: default;
+    border: 1px solid #dcdcdc;
+    text-align: center;
+    line-height: 32px;
+    text-decoration: none;
+}
+.L_s_show .container div table thead tr .mainjiaj input{
+    color: #666;
+    float: left;
+    width: 49px;
+    height: 32px;
+    border: 1px solid #dcdcdc;
+    border-left: none;
+    border-right: none;
+    text-align: center;
+    line-height: 32px;
+}
+.L_s_show .container div table thead tr .mainqx label{
+    color: #444444;
+    float: left;
+    width: 80px;
+    display: inline-block;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.L_s_show .container div table thead tr .mainqx a{
+    color: #444444;
+    padding-left: 18px;
+    float: left;
+}
+
+.L_s_show .container div table thead tr .mainqx div{
+    text-align: right;
+    line-height: 24px;
+    padding-right: 5px;
+    margin: 28px 0px 6px 0px;
+    color: #444444;
+}
+
+.L_s_show .container div table thead tr .mainqx span{
+    color: #c01a20;
+    font-weight: bold;
+    margin: 0px 2px;
+    font-size: 16px;
+}
+
+.L_s_show .container div table thead tr  .mainzj{
+    text-align: right;
+}
+
+.L_s_show .container div table thead tr  .mainzj span{
+    color: #c01a20;
+    font-size: 28px;
+}

@@ -283,7 +283,7 @@ img {
     width: 800px;
 }
 
-.video_ipt_div form input {
+.video_ipt_div input {
     width: 700px;
     float: left;
     box-sizing: border-box;
@@ -306,7 +306,7 @@ img {
     transition: border-bottom-color 0.3s ease 0s;
 }
 
-.video_ipt_div form button {
+.video_ipt_div button {
     float: left;
     width: 82px;
     height: 56px;

@@ -44,8 +44,6 @@ function start() {
 var time;
 var number = 0;
 
-nav_img_ul.innerHTML += nav_img_ul.innerHTML;
-
 function AutoPlay() {
     clearInterval(time);
     time = setInterval(function () {
